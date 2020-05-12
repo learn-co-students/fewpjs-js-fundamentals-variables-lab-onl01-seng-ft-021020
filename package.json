@@ -4,7 +4,7 @@
   "description": "Learn.co's introduction to looping in JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
+    "test": "mocha --timeout 5000 -R mocha-multi --reporter-options nyan=-,json=.results.json"
   },
   "repository": {
     "type": "git",
@@ -38,6 +38,7 @@
     "sinon": "^7.3.1"
   },
   "dependencies": {
-    "expect": "^24.7.1"
+    "expect": "^24.7.1",
+    "urix": "^0.1.0"
   }
 }
